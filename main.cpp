@@ -1,6 +1,7 @@
 #include <iostream>
+#include "src/hello.h"
 
 int main(){
-    std::cout << "Hello World" << std::endl;
+    std::cout << hello() << std::endl;
     return 0;
 }

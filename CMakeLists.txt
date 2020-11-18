@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Testing)
+project(helloworld)
+file(GLOB helloworld_SRC
+    "*.h"
+    "*.cpp"
+)
 
-add_executable(Testing main.cpp)
+add_executable(helloworld ${helloworld_SRC})
